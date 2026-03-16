@@ -63,15 +63,6 @@
 			line-height: 100%
 		}
 
-		.button-link a {
-			color: #0000f0;
-			text-decoration: none
-		}
-
-		b,
-		strong {
-			font-weight: 600 !important;
-		}
 
 		* {
 			word-break: keep-all;
@@ -97,21 +88,9 @@
 
 			.full {
 				width: 100% !important;
-				max-width: 100% !important;
-				float: none !important;
 			}
 
-			.half-width {
-				width: 50% !important;
-			}
-
-
-			.height-auto {
-				height: auto !important;
-			}
-
-
-			.image-fullwidth {
+			.image-full {
 				width: 100% !important;
 				height: auto !important;
 			}
@@ -129,47 +108,71 @@
 				padding-left: 0px !important;
 				padding-right: 0px !important;
 			}
+
+			.cta-col {
+				display: block !important;
+				width: 100% !important;
+			}
 		}
 	</style>
 </head>
 
 <body class="body" style="margin:0;padding:0;word-spacing:normal;background-color:pink;">
 
-	<div role="article" aria-roledescription="email" lang="en"
-		style="-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;background-color:pink;">
-		<table role="presentation" style="width:100%;border:0;border-spacing:0;">
+
+
+<table class="full" style="table-layout: fixed;" width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
 			<tr>
-				<td style="padding: 0px; margin: 0px;" align="center" valign="top">
+				<td align="center" valign="top">
 					<!--[if mso]>
-					<table role="presentation" align="center" style="width:600px;">
-					<tr>
-					<td style="padding:0;">
-					<![endif]-->
-					<div style="width:100%;max-width:600px;margin:0 auto;background-color:#FFFFFF;">
+		<table role="presentation" width="600" align="center">
+		<tr>
+		<td>
+		<![endif]-->
+					<table class="full" align="center" width="600" style="width: 600px; max-width: 600px;" border="0" cellpadding="0" cellspacing="0" role="presentation">
+						<tr>
+							<td class="full" style="padding: 0px 0px 0px 0px;" align="center" valign="top">
 
 
 
 
 
 
-						<!-- BEGIN MODULE: standalone header logo -->
-						<table border="0" cellspacing="0" cellpadding="0" align="left" role="presentation"
-							style="width:100%;max-width:600px;vertical-align:middle;" valign="top">
+
+
+						<!-- BEGIN MODULE: standalone header logo - background blue bar -->
+						<table border="0" cellspacing="0" cellpadding="0" align="center" role="presentation" width="100%"
+							style="vertical-align:middle;" valign="top" class="full">
 							<tbody>
+
 								<tr>
-									<td width="600" align="left" valign="top"
-										style="text-align:center;background-color: #ffffff;background-repeat: no-repeat;background-position: left top;background-size: cover;"
-										background="assets/blue_bar_full_RezepteTipps.png">
+									<td valign="top" style="background-color: #ffffff;padding: 8px 16px 8px 16px;"
+										bgcolor="#ffffff" class="hide">
+										<table border="0" cellpadding="0" cellspacing="0" role="presentation"
+											width="100%" style="border-collapse: separate; border-spacing: 0;">
+											<tr>
+												<td valign="top" align="right" class="hide"
+													style="padding:0px 0px 0px 0px;font-size: 12px; font-weight: 400; line-height: 20px; text-align: right; color: #676D74; font-style: normal; font-family: Helvetica, Arial, sans-serif;">
+													<div>
+														View online
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+
+								<tr>
+									<td align="center" valign="top" style="text-align:center;background-color: #ffffff;background-repeat: no-repeat;background-position: left top;background-size:600px 96px;"
+										background="https://uploads.feed.xyz/mercury/adobe-template/img/blue_bar_full_RezepteTipps.png">
 										<!--[if gte mso 9]>
-										<img src="assets/blue_bar_full_RezepteTipps.png" alt="replace"
+										<img src="https://uploads.feed.xyz/mercury/adobe-template/img/blue_bar_full_RezepteTipps.png" alt="replace"
 										height="96" width="600" border="0" style="display:none;" />
 										<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"
 										style="position:relative;top:0;left:0;width:600px;height:96px;">
 										<v:fill
-										src="assets/blue_bar_full_RezepteTipps.png"
-										type="frame"
-										position="0,0"
-										aspect="atleast" />
+ src="https://uploads.feed.xyz/mercury/adobe-template/img/blue_bar_full_RezepteTipps.png"
+ type="frame" />
 										<v:textbox style="v-text-anchor:top" inset="0,0,0,0">
 										<![endif]-->
 										<div>
@@ -187,9 +190,12 @@
 																		<a href="https://aldi.co.uk/"
 																			style="text-decoration:none;"
 																			target="_blank" rel="noopener noreferrer">
-																			<img src="assets/ALDI_logo.png" alt=""
-																				border="0" width="50" height="auto"
-																				style="width:100%!important;max-width:50px;height:auto!important;display:block;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:17px;color:#000000;text-decoration:none;text-align:center;"></a>
+																			<img src="https://uploads.feed.xyz/mercury/adobe-template/img/aldi_logo_padded.png"
+																			alt=""
+																			border="0"
+																			width="86"
+																			style="display:block;width:86px;height:auto;">
+																			</a>
 																	</div>
 																</td>
 															</tr>
@@ -216,22 +222,114 @@
 
 
 
-						<!-- BEGIN MODULE: header background image -->
-						<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation"
-							bgcolor="#F5F5F6">
+						<!-- BEGIN MODULE: header just as images -->
+						<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"
+							bgcolor="#ffffff" class="full">
+
 							<tr>
-								<td width="600" height="300" align="left" valign="top"
+								<td valign="top" style="background-color: #ffffff;padding: 8px 16px 8px 16px;"
+									bgcolor="#ffffff" class="hide">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+										style="border-collapse: separate; border-spacing: 0;">
+										<tr>
+											<td valign="top" align="right" class="hide"
+												style="padding:0px 0px 0px 0px;font-size: 12px; font-weight: 400; line-height: 20px; text-align: right; color: #676D74; font-style: normal; font-family: Helvetica, Arial, sans-serif;">
+												<div>
+													View online
+												</div>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+
+							<tr>
+								<td width="600" height="78" align="left" valign="top"
+									style="text-align:center;background-color: #ffffff;" class="full">
+
+									<div>
+										<table width="100%" border="0" cellspacing="0" cellpadding="0"
+											role="presentation">
+											<tr>
+												<td style="font-size:1px;line-height:1px;padding:0px;" align="center">
+													<div class="hide">
+														<a href="https://www.aldi.com/" style="text-decoration:none;"
+															target="_blank" rel="noopener noreferrer"><img
+																src="https://uploads.feed.xyz/mercury/adobe-template/img/header_desktop.png"
+																alt="" border="0" width="600" height="78"
+																style="width:100%!important;max-width:600px;height:auto!important;display:block;text-decoration:none;font-family:'Helvetica',Arial,sans-serif;font-size:14px;line-height:17px;color:#ffffff;font-weight:bold;text-decoration:none;text-align:center;"></a>
+													</div>
+													<!--[if !mso 9]><!-->
+													<div class="show"
+														style="display:none;overflow:hidden;max-height:0;mso-hide:all;">
+														<a href="https://www.aldi.com/" style="text-decoration:none;"
+															target="_blank" rel="noopener noreferrer"><img
+																src="https://uploads.feed.xyz/mercury/adobe-template/img/header_mobile.png"
+																alt="" width="100%" height="auto" border="0"
+																style="max-width:560px!important;width:100%!important;height:auto!important;display:block;text-decoration:none;font-family:'Helvetica',Arial,sans-serif;font-size:14px;line-height:17px;color:#ffffff;font-weight:bold;text-decoration:none;text-align:center;"></a>
+													</div>
+													<!--<![endif]-->
+
+												</td>
+											</tr>
+										</table>
+									</div>
+
+								</td>
+							</tr>
+							<tr>
+								<td height="40"
+									style="font-size:40px;line-height:40px;mso-line-height-rule:exactly;opacity:0;">
+									&nbsp;
+								</td>
+							</tr>
+						</table>
+						<!-- END MODULE:  header background image -->
+
+
+
+
+
+
+
+
+
+
+
+						<!-- BEGIN MODULE: header with background image -->
+						<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"
+							bgcolor="#ffffff" class="full">
+
+							<tr>
+								<td valign="top" style="background-color: #ffffff;padding: 8px 16px 8px 16px;"
+									bgcolor="#ffffff" class="hide">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+										style="border-collapse: separate; border-spacing: 0;">
+										<tr>
+											<td valign="top" align="right" class="hide"
+												style="padding:0px 0px 0px 0px;font-size: 12px; font-weight: 400; line-height: 20px; text-align: right; color: #676D74; font-style: normal; font-family: Helvetica, Arial, sans-serif;">
+												<div>
+													View online
+												</div>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+
+							<tr>
+								<td width="600" height="400" align="left" valign="top"
 									style="text-align:center;background-color: #ffffff;background-repeat: no-repeat;background-position: left top;background-size: cover;"
-									background="assets/backgroundplaceholder.png">
+									background="https://uploads.feed.xyz/mercury/adobe-template/img/backgroundplaceholder.png">
 									<!--[if gte mso 9]>
-										<img src="assets/backgroundplaceholder.png" alt="replace"
-										height="96" width="600" border="0" style="display:none;" />
+										<img src="https://uploads.feed.xyz/mercury/adobe-template/img/backgroundplaceholder.png" alt="replace"
+										height="400" width="600" border="0" style="display:none;" />
 
 										<v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false"
-										style="position:relative;top:0;left:0;width:600px;height:96px;">
+										style="position:relative;top:0;left:0;width:600px;height:400px;">
 
 										<v:fill
-										src="assets/backgroundplaceholder.png"
+										src="https://uploads.feed.xyz/mercury/adobe-template/img/backgroundplaceholder.png"
 										type="frame"
 										position="0,0"
 										aspect="atleast" />
@@ -246,8 +344,8 @@
 													<div class="hide">
 														<a href="https://www.aldi.com/" style="text-decoration:none;"
 															target="_blank" rel="noopener noreferrer"><img
-																src="assets/header_desktop.png" alt="" border="0"
-																width="600" height="200"
+																src="https://uploads.feed.xyz/mercury/adobe-template/img/header_desktop.png"
+																alt="" border="0" width="600" height="78"
 																style="width:100%!important;max-width:600px;height:auto!important;display:block;text-decoration:none;font-family:'Helvetica',Arial,sans-serif;font-size:14px;line-height:17px;color:#ffffff;font-weight:bold;text-decoration:none;text-align:center;"></a>
 													</div>
 													<!--[if !mso 9]><!-->
@@ -255,8 +353,8 @@
 														style="display:none;overflow:hidden;max-height:0;mso-hide:all;">
 														<a href="https://www.aldi.com/" style="text-decoration:none;"
 															target="_blank" rel="noopener noreferrer"><img
-																src="assets/header_mobile.png" alt="" width="100%"
-																height="auto" border="0"
+																src="https://uploads.feed.xyz/mercury/adobe-template/img/header_mobile.png"
+																alt="" width="100%" height="auto" border="0"
 																style="max-width:560px!important;width:100%!important;height:auto!important;display:block;text-decoration:none;font-family:'Helvetica',Arial,sans-serif;font-size:14px;line-height:17px;color:#ffffff;font-weight:bold;text-decoration:none;text-align:center;"></a>
 													</div>
 													<!--<![endif]-->
@@ -271,25 +369,19 @@
 								<![endif]-->
 								</td>
 							</tr>
-						</table>
-						<!-- END MODULE:  header background image -->
-
-
-						<!-- BEGIN MODULE: spacer white 48px -->
-						<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
-							style="border-collapse: separate; border-spacing: 0;">
 							<tr>
-								<td height="48"
-									style="font-size:48px;line-height:48px;mso-line-height-rule:exactly;opacity:0;">
+								<td height="40"
+									style="font-size:40px;line-height:40px;mso-line-height-rule:exactly;opacity:0;">
 									&nbsp;
 								</td>
 							</tr>
 						</table>
-						<!-- END MODULE:  spacer white 48px -->
+						<!-- END MODULE:  header background image -->
+
 
 
 						<!-- BEGIN MODULE: Primary Text -->
-						<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+						<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
 							<tr>
 								<td valign="top" style="background-color: #ffffff;padding: 0px 32px 48px 32px;"
 									bgcolor="#ffffff">
@@ -314,26 +406,19 @@
 										<tr>
 											<td style="font-size:1px;line-height:1px;padding:24px 0px 0px 0px;"
 												align="center">
-												<div style="font-size:1px;line-height:1px;" align="center">
-													<table border="0" cellspacing="0" cellpadding="0" bgcolor="#0D3A93"
-														style="display:inline-table;border-collapse: separate;border-radius:8px;"
-														role="presentation">
-														<tbody>
-															<tr>
-																<td style="vertical-align:middle;border-collapse: separate;border:1px solid #0D3A93;border-radius:8px;padding:10px 18px 10px 18px;mso-line-height:exactly;line-height:20px;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;color:#ffffff;text-align:center;vertical-align:middle;"
-																	align="center" valign="middle">
-																	<a href="https://www.aldi.com/"
-																		style="color:#ffffff;text-decoration:none;"
-																		target="_blank" rel="noopener noreferrer">
-																		<strong style="font-weight:bold;">
-																			CTA button
-																		</strong>
-																	</a>
-																</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
+												<table role="presentation" border="0" cellpadding="0" cellspacing="0"
+													bgcolor="#0D3A93" style="border-radius:8px;border-collapse: separate;">
+													<tr>
+														<td align="center" style="border-collapse: separate;border:1px solid #0D3A93;border-radius:8px;padding:10px 18px;
+															font-family:Helvetica,Arial,sans-serif;font-size:14px;
+															font-weight:700;color:#ffffff;line-height:20px;">
+															<a href="https://www.aldi.com/"
+																style="color:#ffffff;text-decoration:none;">
+																CTA button
+															</a>
+														</td>
+													</tr>
+												</table>
 											</td>
 										</tr>
 									</table>
@@ -399,9 +484,24 @@
 
 
 
+						<!-- BEGIN MODULE: spacer grey 40px -->
+						<table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation" width="100%"
+							bgcolor="#F5F5F6" style="border-collapse: separate; border-spacing: 0;">
+							<tr>
+								<td height="40"
+									style="font-size:40px;line-height:40px;mso-line-height-rule:exactly;opacity:0;">
+									&nbsp;
+								</td>
+							</tr>
+						</table>
+						<!-- END MODULE:  spacer grey 48px -->
+
+
+
+
 
 						<!-- BEGIN MODULE: Secondary Text -->
-						<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
+						<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation">
 							<tr>
 								<td valign="top" style="background-color: #F5F5F6;padding: 0px 32px 48px 32px;"
 									bgcolor="#F5F5F6">
@@ -426,122 +526,81 @@
 										<tr>
 											<td style="font-size:1px;line-height:1px;padding:24px 0px 0px 0px;"
 												align="left">
-												<div style="font-size:1px;line-height:1px;" align="left">
-													<table border="0" cellspacing="0" cellpadding="0" bgcolor="#0D3A93"
-														style="display:inline-table;border-collapse: separate;border-radius:8px;"
-														role="presentation">
-														<tbody>
-															<tr>
-																<td style="vertical-align:middle;border-collapse: separate;border:1px solid #0D3A93;border-radius:8px;padding:10px 18px 10px 18px;mso-line-height:exactly;line-height:20px;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;color:#ffffff;text-align:center;vertical-align:middle;"
-																	align="center" valign="middle">
-																	<a href="https://www.aldi.com/"
-																		style="color:#ffffff;text-decoration:none;"
-																		target="_blank" rel="noopener noreferrer">
-																		<strong style="font-weight:bold;">
-																			CTA button
-																		</strong>
-																	</a>
-																</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
+												<table role="presentation" border="0" cellpadding="0" cellspacing="0"
+													bgcolor="#0D3A93" style="border-radius:8px;border-collapse: separate;">
+													<tr>
+														<td align="center" style="border-collapse: separate;border:1px solid #0D3A93;border-radius:8px;padding:10px 18px;
+															font-family:Helvetica,Arial,sans-serif;font-size:14px;
+															font-weight:700;color:#ffffff;line-height:20px;">
+															<a href="https://www.aldi.com/"
+																style="color:#ffffff;text-decoration:none;">
+																CTA button
+															</a>
+														</td>
+													</tr>
+												</table>
 											</td>
 										</tr>
 										<tr>
 											<td style="font-size:1px;line-height:1px;padding:24px 0px 0px 0px;"
 												align="left">
-												<div style="font-size:1px;line-height:1px;" align="left">
-													<table border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff"
-														style="display:inline-table;border-collapse: separate;border-radius:8px;"
-														role="presentation">
-														<tbody>
-															<tr>
-																<td style="vertical-align:middle;border-collapse: separate;border:1px solid #0D3A93;border-radius:8px;padding:10px 18px 10px 18px;mso-line-height:exactly;line-height:20px;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;color:#0D3A93;text-align:center;vertical-align:middle;"
-																	align="center" valign="middle">
-																	<a href="https://www.aldi.com/"
-																		style="color:#0D3A93;text-decoration:none;"
-																		target="_blank" rel="noopener noreferrer">
-																		<strong style="font-weight:bold;">
-																			CTA button
-																		</strong>
-																	</a>
-																</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
+												<table role="presentation" border="0" cellpadding="0" cellspacing="0"
+													bgcolor="#ffffff" style="border-radius:8px;border-collapse: separate;">
+													<tr>
+														<td align="center" style="border-collapse: separate;border:1px solid #0D3A93;border-radius:8px;padding:10px 18px;
+															font-family:Helvetica,Arial,sans-serif;font-size:14px;
+															font-weight:700;color:#0D3A93;line-height:20px;">
+															<a href="https://www.aldi.com/"
+																style="color:#0D3A93;text-decoration:none;">
+																CTA button
+															</a>
+														</td>
+													</tr>
+												</table>
 											</td>
 										</tr>
 									</table>
 
-									<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+
+									<table role="presentation" border="0" cellpadding="0" cellspacing="0">
 										<tr>
-											<td align="left" style="font-size:0;">
 
-												<!-- CTA 1 -->
-												<table border="0" cellspacing="0" cellpadding="0" style="display:inline-table;border-collapse: separate;border-radius:8px;"
-														role="presentation">
-														<tbody>
-															<tr>
-																<td style="font-size:1px;line-height:1px;padding:24px 16px 0px 0px;text-align:left;">
-												<div style="font-size:1px;line-height:1px;">
-													<table border="0" cellspacing="0" cellpadding="0" bgcolor="#0D3A93"
-														style="display:inline-table;border-collapse: separate;border-radius:8px;"
-														role="presentation">
-														<tbody>
-															<tr>
-																<td style="vertical-align:middle;border-collapse: separate;border:1px solid #0D3A93;border-radius:8px;padding:10px 18px 10px 18px;mso-line-height:exactly;line-height:20px;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;color:#ffffff;text-align:center;vertical-align:middle;"
-																	align="center" valign="middle">
-																	<a href="https://www.aldi.com/"
-																		style="color:#ffffff;text-decoration:none;"
-																		target="_blank" rel="noopener noreferrer">
-																		<strong style="font-weight:bold;">
-																			CTA button
-																		</strong>
-																	</a>
-																</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-											</td>
-															</tr>
-														</tbody>
-													</table>
+											<td align="left" style="padding:24px 16px 0 0;" class="cta-col">
 
-												<!-- CTA 2 -->
-												<table border="0" cellspacing="0" cellpadding="0" style="display:inline-table;border-collapse: separate;border-radius:8px;"
-														role="presentation">
-														<tbody>
-															<tr>
-																<td style="font-size:1px;line-height:1px;padding:24px 16px 0px 0px;text-align:left;">
-												<div style="font-size:1px;line-height:1px;">
-													<table border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff"
-														style="display:inline-table;border-collapse: separate;border-radius:8px;"
-														role="presentation">
-														<tbody>
-															<tr>
-																<td style="vertical-align:middle;border-collapse: separate;border:1px solid #0D3A93;border-radius:8px;padding:10px 18px 10px 18px;mso-line-height:exactly;line-height:20px;font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;color:#0D3A93;text-align:center;vertical-align:middle;"
-																	align="center" valign="middle">
-																	<a href="https://www.aldi.com/"
-																		style="color:#0D3A93;text-decoration:none;"
-																		target="_blank" rel="noopener noreferrer">
-																		<strong style="font-weight:bold;">
-																			CTA button
-																		</strong>
-																	</a>
-																</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-											</td>
-															</tr>
-														</tbody>
-													</table>
+												<table role="presentation" border="0" cellpadding="0" cellspacing="0"
+													bgcolor="#0D3A93" style="border-radius:8px;border-collapse: separate;">
+													<tr>
+														<td align="center" style="border-collapse: separate;border:1px solid #0D3A93;border-radius:8px;padding:10px 18px;
+															font-family:Helvetica,Arial,sans-serif;font-size:14px;
+															font-weight:700;color:#ffffff;line-height:20px;">
+															<a href="https://www.aldi.com/"
+																style="color:#ffffff;text-decoration:none;">
+																CTA button
+															</a>
+														</td>
+													</tr>
+												</table>
 
 											</td>
+
+											<td align="left" style="padding:24px 0 0 0;" class="cta-col">
+
+												<table role="presentation" border="0" cellpadding="0" cellspacing="0"
+													bgcolor="#ffffff" style="border-radius:8px;border-collapse: separate;">
+													<tr>
+														<td align="center" style="border-collapse: separate;border:1px solid #0D3A93;border-radius:8px;padding:10px 18px;
+															font-family:Helvetica,Arial,sans-serif;font-size:14px;
+															font-weight:700;color:#0D3A93;line-height:20px;">
+															<a href="https://www.aldi.com/"
+																style="color:#0D3A93;text-decoration:none;">
+																CTA button
+															</a>
+														</td>
+													</tr>
+												</table>
+
+											</td>
+
 										</tr>
 									</table>
 
@@ -555,8 +614,8 @@
 
 
 						<!-- BEGIN MODULE: image -->
-						<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation"
-							bgcolor="#F5F5F6">
+						<table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" role="presentation"
+							bgcolor="#F5F5F6" class="full">
 							<tr>
 								<td style="background-color: #F5F5F6;padding: 0px 32px 32px 32px;">
 									<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
@@ -580,418 +639,26 @@
 						<!-- END MODULE: image -->
 
 
-						<!-- BEGIN MODULE: Deal highlight -->
-
-						<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
-							<tr>
-								<td valign="top" style="background-color: #F5F5F6;padding: 0px 32px 32px 32px;"
-									bgcolor="#F5F5F6">
-									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
-										style="border-collapse: separate; border-spacing: 0; margin-right: auto; margin-left: auto;">
-										<tr>
-											<td style="font-size:1px;line-height:1px;border-radius:16px;padding-bottom:32px;"
-												align="center">
-												<div>
-													<a href="https://aldi.co.uk/" style="text-decoration:none;"
-														target="_blank" rel="noopener noreferrer">
-														<img src="https://dummyimage.com/536x300/C3C3C3/C3C3C3" alt=""
-															border="0" width="536" height="auto"
-															style="width:100%!important;max-width:536px;height:auto!important;display:block;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:17px;color:#000000;font-weight:bold;text-decoration:none;text-align:center;border-radius:16px;"></a>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td style="text-align:left;padding: 0px 0px 10px 0px;">
-												<div
-													style="font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;letter-spacing: 0.5px; font-weight:700; font-size: 14px; line-height: 16px;">
-													<div
-														style="border-color:#202B78; border-radius: 50px; border-width: 2px; border-style: solid; mso-border-style-alt: none; display: inline-block;">
-														<p style="margin: 2px 0px;background-color: #F5F5F6; border-color: #F5F5F6; color:#202B78; border-radius: 50px; border-style: solid; border-width: 4px 8px; display: inline-block; max-width: 400px; min-width: 80px; text-align: center; text-decoration: none;"
-															target="_blank" rel="noopener noreferrer">
-															Ab DI 28.6
-														</p>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td valign="top" align="left" style="padding:0px 0px 0px 0px;">
-												<div
-													style="font-size: 24px; font-weight: 700; line-height: 32px; text-align: left; color: #000000; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-													Lorem ipsum dolor sit amet
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td valign="top" align="left" style="padding:6px 0px 0px 0px;">
-												<div
-													style="font-size: 16px; font-weight: 400; line-height: 24px; text-align: left; color: #000000; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-													Lorem ipsum dolor sit amet consectetur adipiscing
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td style="text-align:left;padding: 26px 0px 0px 0px;">
-												<div
-													style="font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif; font-weight:700; font-size: 14px; line-height: 20px;">
-													<div
-														style="border-color:#F5F5F6; border-radius: 9px; border-width: 1px; border-style: solid; mso-border-style-alt: none; display: inline-block;">
-														<a href="https://www.aldi.com"
-															style="background-color: #202B78; border-color: #202B78; color:#ffffff; border-radius: 8px; border-style: solid; border-width: 13px 18px; display: inline-block; max-width: 400px; min-width: 100px; text-align: center; text-decoration: none;"
-															target="_blank" rel="noopener noreferrer">
-															CTA button
-														</a>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td style="text-align:left;padding: 26px 0px 0px 0px;">
-												<div
-													style="font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif; font-weight:700; font-size: 14px; line-height: 20px;">
-													<div
-														style="border-color:#202B78; border-radius: 9px; border-width: 1px; border-style: solid; mso-border-style-alt: none; display: inline-block;">
-														<a href="https://www.aldi.com"
-															style="background-color: #F5F5F6; border-color: #F5F5F6; color:#202B78; border-radius: 8px; border-style: solid; border-width: 13px 18px; display: inline-block; max-width: 400px; min-width: 100px; text-align: center; text-decoration: none;"
-															target="_blank" rel="noopener noreferrer">
-															CTA button
-														</a>
-													</div>
-												</div>
-											</td>
-										</tr>
-										<tr>
-											<td valign="top" align="left" style="padding: 26px 0px 0px 0px;">
-												<div
-													style="font-size: 14px; font-weight: 700; line-height: 20px; text-align: left; color: #000000; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-													<a href="https://www.aldi.com"
-														style="color:#000000; display: inline-block;text-align: left; text-decoration: underline;"
-														target="_blank" rel="noopener noreferrer">
-														CTA button
-													</a>
-												</div>
-											</td>
-										</tr>
-
-									</table>
-								</td>
-							</tr>
-						</table>
-						<!-- END MODULE: Deal highlight -->
-
-
-						<!-- BEGIN MODULE: Product highlight -->
-
-						<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
-							<tr>
-								<td valign="top" style="background-color: #F5F5F6;padding: 0px 32px 32px 32px;"
-									bgcolor="#F5F5F6">
-									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
-										style="border-collapse: separate; border-spacing: 0; margin-right: auto; margin-left: auto;">
-										<tr>
-											<td style="font-size:1px;line-height:1px;border-radius: 16px 16px 0 0;"
-												align="center">
-												<div>
-													<a href="https://aldi.co.uk/" style="text-decoration:none;"
-														target="_blank" rel="noopener noreferrer">
-														<img src="https://dummyimage.com/536x300/C3C3C3/C3C3C3" alt=""
-															border="0" width="536" height="auto"
-															style="width:100%!important;max-width:536px;height:auto!important;display:block;text-decoration:none;font-family:Helvetica,Arial,sans-serif;font-size:14px;line-height:17px;color:#000000;font-weight:bold;text-decoration:none;text-align:center;border-radius: 16px 16px 0 0;"></a>
-												</div>
-											</td>
-										</tr>
-									</table>
-									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%"
-										bgcolor="#ffffff"
-										style="border-collapse: separate; border-spacing: 0; margin-right: auto; margin-left: auto;border-radius: 0 0 16px 16px;">
-										<tr>
-											<td style="font-size:1px;line-height:1px;border-radius: 0 0 16px 16px;padding:32px;"
-												align="center">
-												<table border="0" cellpadding="0" cellspacing="0" role="presentation"
-													width="100%"
-													style="border-collapse: separate; border-spacing: 0; margin-right: auto; margin-left: auto;">
-													<tr>
-														<td valign="top" align="left" style="padding:0px 0px 0px 0px;">
-															<div
-																style="font-size: 14px; font-weight: 400; line-height: 22px; text-align: left; color: #202B78; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-																LOREM IPSUM
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td valign="top" align="left" style="padding:0px 0px 0px 0px;">
-															<div
-																style="font-size: 16px; font-weight: 700; line-height: 20px; text-align: left; color: #000000; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-																Productname
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td valign="top" align="left" style="padding:10px 0px 0px 0px;">
-															<div
-																style="font-size: 14px; font-weight: 400; line-height: 20px; text-align: left; color: #4A4A4A; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-																XX kg | (XX,XX €/1 kg)
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td valign="top" align="left" style="padding:4px 0px 0px 0px;">
-															<div
-																style="font-size: 24px; font-weight: 700; line-height: 30px; text-align: left; color: #C51718; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-																XX,XX €2 <span>&nbsp;</span><span
-																	style="color:#4A4A4A;font-size: 14px;font-weight: 400;line-height: 16px;text-decoration-line: line-through;">XX,XX
-																	€</span>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td style="text-align:left;padding: 26px 0px 0px 0px;">
-															<div
-																style="font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif; font-weight:700; font-size: 14px; line-height: 20px;">
-																<div
-																	style="border-color:#F5F5F6; border-radius: 9px; border-width: 1px; border-style: solid; mso-border-style-alt: none; display: inline-block;">
-																	<a href="https://www.aldi.com"
-																		style="background-color: #202B78; border-color: #202B78; color:#ffffff; border-radius: 8px; border-style: solid; border-width: 13px 18px; display: inline-block; max-width: 400px; min-width: 100px; text-align: center; text-decoration: none;"
-																		target="_blank" rel="noopener noreferrer">
-																		CTA button
-																	</a>
-																</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td style="text-align:left;padding: 26px 0px 0px 0px;">
-															<div
-																style="font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif; font-weight:700; font-size: 14px; line-height: 20px;">
-																<div
-																	style="border-color:#202B78; border-radius: 9px; border-width: 1px; border-style: solid; mso-border-style-alt: none; display: inline-block;">
-																	<a href="https://www.aldi.com"
-																		style="background-color: #F5F5F6; border-color: #F5F5F6; color:#202B78; border-radius: 8px; border-style: solid; border-width: 13px 18px; display: inline-block; max-width: 400px; min-width: 100px; text-align: center; text-decoration: none;"
-																		target="_blank" rel="noopener noreferrer">
-																		CTA button
-																	</a>
-																</div>
-															</div>
-														</td>
-													</tr>
-													<tr>
-														<td valign="top" align="left"
-															style="padding: 26px 0px 0px 0px;">
-															<div
-																style="font-size: 14px; font-weight: 700; line-height: 20px; text-align: left; color: #000000; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-																<a href="https://www.aldi.com"
-																	style="color:#000000; display: inline-block;text-align: left; text-decoration: underline;"
-																	target="_blank" rel="noopener noreferrer">
-																	CTA button
-																</a>
-															</div>
-														</td>
-													</tr>
-												</table>
-											</td>
-										</tr>
-									</table>
-								</td>
-							</tr>
-						</table>
-						<!-- END MODULE: Product highlight -->
-
-						<!-- BEGIN MODULE: Product grid 2 col -->
-						<table width="100%" border="0" cellspacing="0" cellpadding="0" role="presentation">
-							<tbody>
-								<tr>
-									<td style="padding: 0px 32px 32px 32px;" bgcolor="#F5F5F6">
-										<table width="100%" border="0" cellspacing="0" cellpadding="0"
-											role="presentation">
-											<tbody>
-												<tr>
-													<td valign="top" style="border-radius: 0px;">
-														<table border="0" cellpadding="0" cellspacing="0"
-															role="presentation" width="100%"
-															style="border-collapse: separate; border-spacing: 0; margin-right: auto; margin-left: auto;">
-															<tbody>
-																<tr>
-																	<td valign="top" width="50%"
-																		style="padding: 0px 8px 0px 0px;width:50%;"
-																		align="center">
-																		<table>
-																			<tr>
-																				<td valign="top"
-																					style="padding: 0px 0px 16px 0px; border-radius: 16px;"
-																					align="center">
-																					<img src="https://dummyimage.com/260x260/C3C3C3/C3C3C3"
-																						width="260" alt=""
-																						style="display: block; outline: 0; -ms-interpolation-mode: bicubic; max-width: 260px; width:100%; height: auto; border: 0;border-radius: 16px;">
-																				</td>
-																			</tr>
-																			<tr>
-																				<td
-																					style="text-align:left;padding: 0px 0px 6px 0px;">
-																					<div
-																						style="font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;letter-spacing: 0.5px; font-weight:700; font-size: 14px; line-height: 16px;">
-																						<div
-																							style="border-color:#C51718; border-radius: 50px; border-width: 2px; border-style: solid; mso-border-style-alt: none; display: inline-block;">
-																							<p style="margin: 2px 0px;background-color: #F5F5F6; border-color: #F5F5F6; color:#C51718; border-radius: 50px; border-style: solid; border-width: 4px 8px; display: inline-block; max-width: 400px; min-width: 80px; text-align: center; text-decoration: none;"
-																								target="_blank"
-																								rel="noopener noreferrer">
-																								Ab DI 28.6
-																							</p>
-																						</div>
-																					</div>
-																				</td>
-																			</tr>
-																			<tr>
-																				<td valign="top" align="left"
-																					style="padding:0px 0px 6px 0px;">
-																					<div
-																						style="font-size: 14px; font-weight: 400; line-height: 20px; text-align: left; color: #4A4A4A; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-																						Lorem ipsum dolor sit amet
-																						consectetur adipiscing
-																					</div>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																	<td valign="top" width="50%"
-																		style="padding: 0px 0px 0px 8px;width:50%;"
-																		align="center">
-																		<table>
-																			<tr>
-																				<td valign="top"
-																					style="padding: 0px 0px 16px 0px; border-radius: 16px;"
-																					align="center">
-																					<img src="https://dummyimage.com/260x260/C3C3C3/C3C3C3"
-																						width="260" alt=""
-																						style="display: block; outline: 0; -ms-interpolation-mode: bicubic; max-width: 260px; width:100%; height: auto; border: 0;border-radius: 16px;">
-																				</td>
-																			</tr>
-																			<tr>
-																				<td
-																					style="text-align:left;padding: 0px 0px 6px 0px;">
-																					<div
-																						style="font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;letter-spacing: 0.5px; font-weight:700; font-size: 14px; line-height: 16px;">
-																						<div
-																							style="border-color:#C51718; border-radius: 50px; border-width: 2px; border-style: solid; mso-border-style-alt: none; display: inline-block;">
-																							<p style="margin: 2px 0px;background-color: #F5F5F6; border-color: #F5F5F6; color:#C51718; border-radius: 50px; border-style: solid; border-width: 4px 8px; display: inline-block; max-width: 400px; min-width: 80px; text-align: center; text-decoration: none;"
-																								target="_blank"
-																								rel="noopener noreferrer">
-																								Ab DI 28.6
-																							</p>
-																						</div>
-																					</div>
-																				</td>
-																			</tr>
-																			<tr>
-																				<td valign="top" align="left"
-																					style="padding:0px 0px 6px 0px;">
-																					<div
-																						style="font-size: 14px; font-weight: 400; line-height: 20px; text-align: left; color: #4A4A4A; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-																						Lorem ipsum dolor sit amet
-																						consectetur adipiscing extra
-																						description extra
-																						description
-																					</div>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-																<tr>
-																	<td valign="top" width="50%"
-																		style="padding: 0px 8px 0px 0px;width:50%;"
-																		align="left">
-																		<table>
-																			<tr>
-																				<td valign="top" align="left"
-																					style="padding:0px 0px 0px 0px;">
-																					<div
-																						style="font-size: 16px; font-weight: 700; line-height: 20px; text-align: left; color: #000000; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-																						$1.59<span>&nbsp;&nbsp;</span><span
-																							style="font-size: 14px;font-style: normal;font-weight: 400;line-height: 20px;text-decoration-line: line-through;color:#4A4A4A;">$2.29</span>
-																					</div>
-																				</td>
-																			</tr>
-																			<tr>
-																				<td valign="top" align="left"
-																					style="padding: 26px 0px 0px 0px;">
-																					<div
-																						style="font-size: 14px; font-weight: 700; line-height: 20px; text-align: left; color: #000000; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-																						<a href="https://www.aldi.com"
-																							style="color:#000000; display: inline-block;text-align: left; text-decoration: underline;"
-																							target="_blank"
-																							rel="noopener noreferrer">
-																							CTA button
-																						</a>
-																					</div>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																	<td valign="top" width="50%"
-																		style="padding: 0px 0px 0px 8px;width:50%;"
-																		align="left">
-																		<table>
-																			<tr>
-																				<td valign="top" align="left"
-																					style="padding:0px 0px 0px 0px;">
-																					<div
-																						style="font-size: 16px; font-weight: 700; line-height: 20px; text-align: left; color: #000000; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-																						$1.59<span>&nbsp;&nbsp;</span><span
-																							style="font-size: 14px;font-style: normal;font-weight: 400;line-height: 20px;text-decoration-line: line-through;color:#4A4A4A;">$2.29</span>
-																					</div>
-																				</td>
-																			</tr>
-																			<tr>
-																				<td valign="top" align="left"
-																					style="padding: 26px 0px 0px 0px;">
-																					<div
-																						style="font-size: 14px; font-weight: 700; line-height: 20px; text-align: left; color: #000000; font-style: normal; font-variant-ligatures: common-ligatures; font-family: 'FONTFAMILY', Helvetica, Arial, sans-serif;">
-																						<a href="https://www.aldi.com"
-																							style="color:#000000; display: inline-block;text-align: left; text-decoration: underline;"
-																							target="_blank"
-																							rel="noopener noreferrer">
-																							CTA button
-																						</a>
-																					</div>
-																				</td>
-																			</tr>
-																		</table>
-																	</td>
-																</tr>
-															</tbody>
-														</table>
-													</td>
-												</tr>
-											</tbody>
-										</table>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-						<!-- END MODULE: Product grid 2 col -->
 
 
 
 
 
 
+</td>
+</tr>
+</table>
 
+<!--[if mso]>
+</td>
+</tr>
+</table>
+<![endif]-->
 
+</td>
+</tr>
+</table>
 
-
-
-
-					</div>
-
-					<!--[if mso]>
-            </td>
-            </tr>
-            </table>
-            <![endif]-->
-				</td>
-			</tr>
-		</table>
-	</div>
 </body>
 
 </html>
