@@ -35,6 +35,7 @@ p, ul, td {-ms-hyphens: none; mso-hyphenate: none;}
 color-scheme: light dark;
 supported-color-schemes: light dark;
 }
+
 @media (prefers-color-scheme: dark) {
 
 .btndark {
@@ -88,19 +89,19 @@ transition: color 0.3s ease;
 }
 
 .primarybg {
-background-color: #101316!important;
+background-color: #101316 !important;
 }
 
 .secondarybg {
-background-color: #2E2E2E!important;
+background-color: #2E2E2E !important;
 }
 
 .headline {
-color:#ffffff !important;
+color: #ffffff !important;
 }
 
 .body {
-color:#D6D8DA !important;
+color: #D6D8DA !important;
 }
 
 .brandname {
@@ -112,11 +113,11 @@ color: #FF0000 !important;
 }
 
 .white {
-color: #ffffff!important;
+color: #ffffff !important;
 }
 
 .midblue {
-color: #0D3A93!important;
+color: #0D3A93 !important;
 }
 
 
@@ -124,7 +125,6 @@ color: #0D3A93!important;
 </style>
 
 <style type="text/css">
-
 .show {
 display: none;
 }
@@ -241,6 +241,50 @@ width: 100% !important;
 .borderbottom {
 border-bottom: 1px solid #D6D8DA !important;
 }
+
+/* NEW CSS */
+.border-radius-tltr {
+border-top-left-radius: 16px !important;
+border-top-right-radius: 16px !important;
+border-bottom-left-radius: 0px !important;
+border-bottom-right-radius: 0px !important;
+}
+
+.half {
+width: 50% !important;
+display: inline-block !important;
+}
+
+}
+
+@media only screen and (max-width: 560px) {
+.column-mobile-40 {
+display: inline-block !important;
+width: 40% !important;
+vertical-align: top;
+}
+
+.column-mobile-60 {
+display: inline-block !important;
+width: 60% !important;
+vertical-align: top;
+}
+.pl16 {
+padding-left:16px!important;
+}
+
+.pr16 {
+padding-right:16px!important;
+}
+}
+
+@media only screen and (min-width: 560px) {
+
+.column-mobile-40,
+.column-mobile-60 {
+display: block !important;
+width: 100% !important;
+}
 }
 </style>
 </head>
@@ -263,25 +307,6 @@ cellpadding="0" cellspacing="0" role="presentation">
 <tr>
 <td class="full" style="padding: 0px 0px 0px 0px;" align="center" valign="top">
 
-
-
-
-
-
-
-
-
-<!-- BEGIN MODULE: spacer white 40px -->
-<!-- <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
-width="100%" bgcolor="#ffffff" style="border-collapse: separate; border-spacing: 0;" class="primarybg">
-<tr>
-<td height="40"
-style="font-size:40px;line-height:40px;mso-line-height-rule:exactly;opacity:0;">
-&nbsp;
-</td>
-</tr>
-</table> -->
-<!-- END MODULE:  spacer white 48px -->
 
 
 
@@ -394,22 +419,6 @@ CTA button
 </tr>
 </table>
 <!-- END MODULE: Primary Text -->
-
-
-
-
-
-<!-- BEGIN MODULE: spacer grey 40px -->
-<!-- <table border="0" align="center" cellpadding="0" cellspacing="0" role="presentation"
-width="100%" bgcolor="#F5F5F6" style="border-collapse: separate; border-spacing: 0;" class="secondarybg">
-<tr>
-<td height="40"
-style="font-size:40px;line-height:40px;mso-line-height-rule:exactly;opacity:0;">
-&nbsp;
-</td>
-</tr>
-</table> -->
-<!-- END MODULE:  spacer grey 48px -->
 
 
 
